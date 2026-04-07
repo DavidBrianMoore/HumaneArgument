@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "humaneargument",
     "source": ".",
     "ignore": [
       "firebase.json",
