@@ -20,8 +20,8 @@
   --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.5);
   --shadow-lg: 0 12px 24px rgba(0, 0, 0, 0.8);
   
-  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
-  --font-header: 'Outfit', system-ui, -apple-system, sans-serif;
+  --font-body: 'Palatino', 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+  --font-header: var(--font-body);
 }
 
 * {
@@ -41,8 +41,8 @@ html, body {
 }
 
 h1, h2, h3, h4, x-heading {
-  font-family: var(--font-header);
-  letter-spacing: -0.02em;
+  font-family: var(--font-body);
+  letter-spacing: -0.01em;
 }
 
 .premium-card {
